@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "version": "2.0.0",
+    "name": "info Saver",
+    "permissions": [
+        "tabs"
+    ],
+    "action": {
+        "default_icon": "hmm.png",
+        "default_popup": "index.html"
+    },
+    "background": {
+        "service_worker": "index.js"
+    }
+}
